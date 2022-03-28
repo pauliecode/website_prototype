@@ -3,10 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Website Prototype</title>
 </head>
 <body>
-    <p>Git test</p>
+    <div id="main">
+        <h2 id="main-title">Join Chat!</h2>
+        <div id="name-box">
+            <form id="name-login">
+            <label for="name">
+                Display Name: 
+            </label>
+            <input class="form-control" id="name" name="name" placeholder="" type="text">
+        </form>
+        </div>
+
+        <div id="room-box">
+            <form id="room-login">
+            <label for="room">
+                Enter Room: 
+            </label>
+            <input class="form-control" id="room" name="room" placeholder="" type="text">
+        </form>
+        </div>
+
+        <button id="join-button">Join Chat</button>
+    </div>
     <script type="module" src="index.js"></script>
 </body>
 </html>
